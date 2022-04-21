@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,600');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:ital,wght@1,300&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
 /* reset css */
     html{
     font-size: 62.5%;
     scroll-behavior: smooth;
     background-color: rgb(255, 255, 255);
-}
+    background: linear-gradient(to top, rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.3) 50%), url(../asset/bg.png) no-repeat center center fixed;
+    }
 body{
-    font: 1.6rem 'Montserrat', sans-serif;
+    font: 1.6rem 'Roboto', sans-serif;
     margin: 0;
-    background-color: rgb(255, 255, 255);
-    background: url("../asset/bg.png") no-repeat;
-    background-size: cover;
 }
 h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
     margin: 0;
@@ -56,7 +54,7 @@ header{
     border: rgb(255, 252, 252);
     align-items: center;
     justify-content: center;
-    background-color: #eae9e9bd;
+    background-color: #eae9e9ce;
 }
 header img{
     position: absolute;
@@ -83,7 +81,7 @@ header img{
 } 
 main section h2{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-top: 4rem;
 }
 main p{
@@ -207,7 +205,7 @@ div figure img{
 }
 main a{
     padding: 2rem;
-    background-color: #e36268;
+    background-color: #6599CC;
     margin: 1rem auto;
     display: block;
     max-width: 25rem;
@@ -219,11 +217,11 @@ main button{
     margin: 0 auto;
     display: block;
     padding: 1rem;
-    background-color: #E30713;
+    background-color: #6599CC;
     border-radius: 1rem;
 }
 main a:hover{
-    background-color: #c41c1c;
+    background-color: #4991d9;
 }
 footer p{
     text-align: center;
@@ -255,7 +253,11 @@ footer p{
     padding: 1.6rem;
     background-color: #292929;
     color: #ffffff;
-    border-radius: 0.4rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
 }
 .container .form-element {
     position: relative;
@@ -290,7 +292,7 @@ input, select{
     border-radius: 1rem;
     border: none;
     color: #ffffff;
-    background-color: #e50914;
+    background-color: #6599CC;
    }
 .container input[type="submit"]{
     width: 100%;
@@ -301,7 +303,7 @@ input, select{
     border-radius: 1rem;
     border: none;
     color: #ffffff;
-    background-color: #e50914;
+    background-color: #6599CC;
     line-height: 2.5rem;
 }
 h3{
