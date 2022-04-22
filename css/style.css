@@ -306,6 +306,9 @@ input, select{
     background-color: #6599CC;
     line-height: 2.5rem;
 }
+.container input[type="submit"]:hover{
+    background-color: #4991d9;
+}
 h3{
     text-align: center;
 }
